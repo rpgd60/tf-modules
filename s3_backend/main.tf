@@ -1,8 +1,3 @@
-locals {
-  ## for troubleshooting
-  account_id = data.aws_caller_identity.current.account_id
-}
-
 resource "aws_s3_bucket" "terraform_state" {
   bucket = "tf-state-${var.company}-${var.project}-${var.environment}"
 

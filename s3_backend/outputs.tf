@@ -1,7 +1,7 @@
-output "iam_principal_info" {
-  description = "Info about IAM principal (user or role) used by Terraform to configure AWS"
-  value       = data.aws_caller_identity.current
-}
+# output "iam_principal_info" {
+#   description = "Info about IAM principal (user or role) used by Terraform to configure AWS"
+#   value       = data.aws_caller_identity.current
+# }
 
 output "state_bucket_arn" {
   description = "State bucket ARN"

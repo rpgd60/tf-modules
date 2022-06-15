@@ -2,7 +2,6 @@
 variable "company" {
   type = string
   description = "company name - will be used in tags"
-  default = "acme"
   default = null
 }
 
@@ -20,14 +19,14 @@ variable "environment" {
 }
 
 
-## AWS Specific parameters
-variable "profile" {
-  description = "AWS profile"
-  type        = string
-}
+# ## AWS Specific parameters
+# variable "profile" {
+#   description = "AWS profile"
+#   type        = string
+# }
 
-variable "region" {
-  description = "AWS Region"
-  type        = string
-}
+# variable "region" {
+#   description = "AWS Region"
+#   type        = string
+# }
 
