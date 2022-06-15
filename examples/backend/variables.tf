@@ -11,15 +11,15 @@ variable "region" {
 
 ## Environment and Project
 variable "company" {
-  type = string
+  type        = string
   description = "company name - will be used in tags"
-  default = null
+  default     = null
 }
 
 variable "project" {
   description = "Project Name"
   type        = string
-  default = null
+  default     = null
 }
 
 variable "environment" {
