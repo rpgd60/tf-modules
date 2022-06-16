@@ -25,8 +25,7 @@ variable "project" {
 variable "environment" {
   type        = string
   description = "e.g. test dev prod stage"
-  # default     = "prod"
-  default = null
+  default     = null
 }
 
 
