@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "tf-state-${var.company}-${var.project}-${var.environment}"
+  bucket_prefix = "tf-state-${var.company}-${var.project}-${var.environment}"
 
   #  Protect against bucket deletion - uncomment when ready 
       # lifecycle {
